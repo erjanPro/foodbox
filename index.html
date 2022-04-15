@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+    <title>Foodbox</title>
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner conteiner">
+            <nav class="header__nav">
+                <div class="about-us">
+                    <a href="#">checkout</a>
+                    <a href="#">about us</a>
+                </div>
+                <div class="logo">
+                    <a href="#"><img src="img/Foodbox.png" alt="Foodbox"></a>
+                </div>
+                <div class="register">
+                  <div class="register__form">
+                    <div class="form">
+                      <form method="get">
+                        <input type="text" id="search" name="search" placeholder="Search" class="search-form" required>
+                      </form>
+                    </div>
+                    <div class="resiter__search">
+                      <svg class="user">
+                        <use xlink:href='fonts/icomoon.svg#search'>
+                        </use>
+                      </svg>
+                    </div>
+                  </div>
+                  <svg class="user">
+                    <use xlink:href='fonts/icomoon.svg#user'>
+                    </use>
+                  </svg>
+                    <a href="#">my account</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="nav">
+        <div class="nav__inner conteiner">
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="#">home</a></li>
+                <li class="nav__item"><a href="#">blog</a></li>
+                <li class="nav__item"><a href="#">news</a></li>
+                <li class="nav__item"><a href="#">news</a></li>
+                <li class="nav__item"><a href="#">shortcode</a></li>
+                <li class="nav__item"><a href="#">shortcode</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="main-section">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/main-bacground.jpg" class="d-block w-100" alt="main-bacground">
+              </div>
+              <div class="carousel-item">
+                <img src="img/main-bacground.jpg" class="d-block w-100" alt="main-bacground">
+              </div>
+              <div class="carousel-item">
+                <img src="img/main-bacground.jpg" class="d-block w-100" alt="main-bacground">
+              </div>
+            </div>
+           <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+    </section>
+    <div class="cards">
+      <div class="cards__inner conteiner">
+        <div class="cards__card">
+          <div class="cards__card-img">
+            <svg class="card-svg">
+              <use xlink:href='fonts/icomoon.svg#truck'>
+              </use>
+            </svg>
+          </div>
+          <div class="cards__card-text">
+            <h4>free shipping</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card-img">
+            <svg class="card-svg">
+              <use xlink:href='fonts/icomoon.svg#headphones'>
+              </use>
+            </svg>
+          </div>
+          <div class="cards__card-text">
+            <h4>24/7 freesupport</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card-img">
+            <svg class="card-svg">
+              <use xlink:href='fonts/icomoon.svg#money-back'>
+              </use>
+            </svg>
+          </div>
+          <div class="cards__card-text">
+            <h4>money back gurantee</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card-img">
+            <svg class="card-svg">
+              <use xlink:href='fonts/icomoon.svg#gift'>
+              </use>
+            </svg>
+          </div>
+          <div class="cards__card-text">
+            <h4>win $100in shop</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section">
+      <div class="slide-cards conteiner">
+        <div class="slide-cards__card">
+          <div class="row mt-5">
+            <div class="col">
+                <div class="col_img">
+                    <img src="img/cards-background.jpg" alt="">
+                </div>
+                <div class="col_text">
+                    <h5>Big saving</h5>
+                    <p class="sushi">eternal sushi</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas facilisis in non velit, dictum nulla aliquam consequat. Quam nibh non at facilisi feugiat ac. Ridiculus lobortis donec dui nec lacinia pharetra, senectus. Massa urna, sit elit facilisis consectetur consequat nullam id. </p>
+                    <a href="#" class="button">
+                        buy goods
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col_img">
+                    <img src="img/cards-background.jpg" alt="">
+                </div>
+                <div class="col_text">
+                    <h5>Big saving</h5>
+                    <p class="sushi">eternal sushi</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas facilisis in non velit, dictum nulla aliquam consequat. Quam nibh non at facilisi feugiat ac. Ridiculus lobortis donec dui nec lacinia pharetra, senectus. Massa urna, sit elit facilisis consectetur consequat nullam id. </p>
+                    <a href="#" class="button">
+                        buy goods
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col_img">
+                    <img src="img/cards-background.jpg" alt="">
+                </div>
+                <div class="col_text">
+                    <h5>Big saving</h5>
+                    <p class="sushi">eternal sushi</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas facilisis in non velit, dictum nulla aliquam consequat. Quam nibh non at facilisi feugiat ac. Ridiculus lobortis donec dui nec lacinia pharetra, senectus. Massa urna, sit elit facilisis consectetur consequat nullam id. </p>
+                    <a href="#" class="button">
+                        buy goods
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+              <div class="col_img">
+                  <img src="img/cards-background-2.jpg" alt="">
+              </div>
+              <div class="col_text">
+                  <h5>Big saving</h5>
+                  <p class="sushi">eternal sushi</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas facilisis in non velit, dictum nulla aliquam consequat. Quam nibh non at facilisi feugiat ac. Ridiculus lobortis donec dui nec lacinia pharetra, senectus. Massa urna, sit elit facilisis consectetur consequat nullam id. </p>
+                  <a href="#" class="button">
+                      buy goods
+                  </a>
+              </div>
+          </div>
+          <div class="col">
+              <div class="col_img">
+                  <img src="img/cards-background-2.jpg" alt="">
+              </div>
+              <div class="col_text">
+                  <h5>Big saving</h5>
+                  <p class="sushi">eternal sushi</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas facilisis in non velit, dictum nulla aliquam consequat. Quam nibh non at facilisi feugiat ac. Ridiculus lobortis donec dui nec lacinia pharetra, senectus. Massa urna, sit elit facilisis consectetur consequat nullam id. </p>
+                  <a href="#" class="button">
+                      buy goods
+                  </a>
+              </div>
+          </div>
+          <div class="col">
+              <div class="col_img">
+                  <img src="img/cards-background-2.jpg" alt="">
+              </div>
+              <div class="col_text">
+                  <h5>Big saving</h5>
+                  <p class="sushi">eternal sushi</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas facilisis in non velit, dictum nulla aliquam consequat. Quam nibh non at facilisi feugiat ac. Ridiculus lobortis donec dui nec lacinia pharetra, senectus. Massa urna, sit elit facilisis consectetur consequat nullam id. </p>
+                  <a href="#" class="button">
+                      buy goods
+                  </a>
+              </div>
+          </div>
+      </div>
+        </div>
+      </div>
+    </section>
+    <section class="dish">
+      <div class="dish__inner conteiner">
+        <div class="dish__theme">
+          <!-- <div class="img">
+          </div> -->
+          <p>Takeaway</p>
+          <h1>dish of the week</h1>
+          <p>have time to order now</p>
+          <a href="$" class="green-button">
+            order now
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__inner conteiner">
+        <ul class="footer__links">
+          <li class="footer__link"><a href="#">home</a></li>
+          <li class="footer__link"><a href="#">shop</a></li>
+          <li class="footer__link"><a href="#">blog</a></li>
+        </ul>
+        <div class="logo">
+          <a href="#">
+            <img src="img/Foodbox-footer.png" alt="">
+          </a>
+        </div>
+        <ul class="footer__links">
+          <li class="footer__link"><a href="#">media</a></li>
+          <li class="footer__link"><a href="#">shortcode</a></li>
+          <li class="footer__link"><a href="#">features</a></li>
+        </ul>
+      </div>
+      <div class="footer__text conteiner">
+        <p>Copyright © Footer 2017-2020. All right reserved. COPYRIGHT 2020. ВСЕ ПРАВА ЗАЩИЩЕНЫ!</p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
